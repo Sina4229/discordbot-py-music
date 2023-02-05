@@ -44,7 +44,7 @@ def main():
     @client.event
     async def on_message(message):
         if message.author == client.user:
-        return
+            return
 
         if message.content == f'{PREFIX}call':
             await message.channel.send("callback!")
