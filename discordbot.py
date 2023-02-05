@@ -22,9 +22,6 @@ TOKEN = os.environ['TOKEN']
 client = discord.Client()
 intents = discord.Intents.all()
 
-prefix = '!'
-intents = discord.Intents.all()
-
 def main():
     prefix = '!'
     intents = discord.Intents.all()
