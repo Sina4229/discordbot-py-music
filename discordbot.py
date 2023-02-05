@@ -467,8 +467,8 @@ def main():
 
     try:
         client.run(TOKEN)
-except discord.errors.LoginFailure as e:
-    print("Improper token has been passed.")
+    except discord.errors.LoginFailure as e:
+        print("Improper token has been passed.")
 
 if __name__ == '__main__':
     main()
