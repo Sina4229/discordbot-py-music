@@ -457,9 +457,9 @@ def main():
                     await reaction.message.channel.send("플레이리스트가 나오면 생길 기능이랍니다.")
 
     try:
-    client.run(TOKEN)
-except discord.errors.LoginFailure as e:
-    print("Improper token has been passed.")
+        client.run(TOKEN)
+    except discord.errors.LoginFailure as e:
+        print("Improper token has been passed.")
 
 if __name__ == '__main__':
     main()
