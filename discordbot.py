@@ -16,7 +16,6 @@ import lxml
 
 load_dotenv()
 
-PREFIX = os.environ['PREFIX']
 TOKEN = os.environ['TOKEN']
 
 client = discord.Client()
